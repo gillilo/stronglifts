@@ -6,6 +6,8 @@ import lombok.Data
 class WorkoutSchedule(
     var week:Int = 0,
     var workouts: List<WorkoutDay>? = null
+
+
 )
 
 @Data
